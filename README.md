@@ -12,10 +12,6 @@ IoT system to **optimize corn drying** in a small farm with photovoltaics: it fo
 - **Anti-starvation**: 24-hour sliding window with `min_on`/`max_on` and `load_hour`, including forced activations and (if needed) disabling edge auto-control.  
 - **Dashboard**: PV vs forecast, consumption vs forecast, weather, furnace duty cycle, and ON/OFF state.
 
-## Screenshots / Diagram
-
-> *(Insert an architecture diagram or Grafana screenshots.)*
-
 ---
 
 ## Key features
@@ -126,6 +122,4 @@ Maintains a 24-hour sliding window of furnace runtime: ensures **≥ `min_on`** 
 - **Format: JSON** (unified across sensors, actuators, CLI; lighter than XML).
 
 ---
-
-## Suggested repo structure
 
